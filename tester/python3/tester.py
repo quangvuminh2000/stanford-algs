@@ -32,6 +32,7 @@ def test(student_algorithm, test_cases_folder, name="alg", max_size=-1, only=[])
 
         # get all input files
         file_info = filename[:-4].split("_")
+        print(file_info)
         # First three parts are type, user, and number
         file_type, file_user, file_num = file_info[:3]
         # Rest parts are input sizes
